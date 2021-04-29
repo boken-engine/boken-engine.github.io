@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "build-css": "sass --watch assets/sass/main.scss assets/css/main.css",
+    "serve": "http-server"
+  },
+  "devDependencies": {
+    "http-server": "^0.12.3",
+    "sass": "^1.32.11"
+  }
+}
