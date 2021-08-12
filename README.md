@@ -1,9 +1,33 @@
-# Boken Engine
+# Boken Engine Site
 
 Website for [Boken Engine](https://github.com/boken-engine/boken-engine), an **iOS Swift framework** for creating slides-based, non-linear visual stories and presentations.
 
----
+## Requirements
 
-Based on Fractal template from HTML5 UP under the CCA 3.0 license (html5up.net/license)
+In order to run it locally you need:
 
-Photos by Paweł Czerwiński under Unsplash license (https://unsplash.com/license)
+* Ruby
+* Gems: Jeyll and bundler
+
+Follow this steps for Ubuntu: https://jekyllrb.com/docs/installation/ubuntu/
+
+## Install
+
+```
+git clone git@github.com:boken-engine/boken-engine.github.io.git
+bundle install
+```
+
+Run local server with:
+
+```
+bundle exec jekyll serve
+```
+
+You should see the web at http://127.0.0.1:4000
+
+## Credits
+
+Based on Jekyll template [beautifuljekyll.com](https://beautifuljekyll.com/)
+
+Photos by Cristofer Maximiliam under Unsplash license (https://unsplash.com/license)
