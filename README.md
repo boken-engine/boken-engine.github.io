@@ -10,6 +10,7 @@ In order to run it locally you need:
 * Gems: Jeyll and bundler
 
 Follow this steps for Ubuntu: https://jekyllrb.com/docs/installation/ubuntu/
+Follow this steps for macOS: https://jekyllrb.com/docs/installation/macos/
 
 ## Install
 
