@@ -12,7 +12,9 @@ Althougth you can easily build and run the [Iakka demo project](https://github.c
 
 That's why we decided to build a macOS version. If you have an iOS device the simplest way is to install the Iakkai iOS App from the Apple App Store: [Iakkai](https://apps.apple.com/app/id1580924283#?platform=ipad).
 
-If you do not have an iOS device you can [download Iakkai](/download/iakkai-1.0.zip) and install it as a simple macOS app. You only need to double click to uncompress the file and copy the app to you `Application` folder.
+If you do not have an iOS device you can [download Iakkai](https://github.com/boken-engine/iakkai-saga-the-curse-of-blood/releases/download/1.0/iakkai-1.0.zip) and install it as a simple macOS app. You only need to double click to uncompress the file and copy the app to you `Application` folder.
+
+[![Iakkai Saga - Download version 1.0](/assets/img/download-button.png)](https://github.com/boken-engine/iakkai-saga-the-curse-of-blood/releases/download/1.0/iakkai-1.0.zip)
 
 We tried to publish it on the Mac App Store bus it was rejected by Apple reviewers. The reason was:
 
