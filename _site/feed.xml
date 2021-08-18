@@ -12,10 +12,21 @@
     
     
       <item>
+        <title>Iakkai Saga for macOS</title>
+        <description>
+          Running Iakkai on your macOS by Jose Celano - 
+          Althougth you can easily build and run the Iakka demo project on your macOS, we wanted to have a simpler way to execute it. We wanted to show what you can build using Boken Engine even before knowing how to do it. That’s why we decided to build a macOS...
+        </description>
+        <pubDate>Tue, 17 Aug 2021 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/2021-08-17-Iaaki-Saga-for-macOS/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021-08-17-Iaaki-Saga-for-macOS/</guid>
+      </item>
+    
+      <item>
         <title>Iakkai Saga available on the App Store!</title>
         <description>
-          The first epsisode is available on App Store by Jose Celano - 
-          After some months of hard work we finally have published the first application built entirely using Boken Engine. You can find it on the App Store: https://apps.apple.com/app/id1580924283#?platform=ipad Our our goals at the beginning of the project were: Try to build a complete demo using all Boken Engine features. Make it...
+          The first episode is available on the Apple App Store by Jose Celano - 
+          After some months of hard work we finally published the first application built entirely using Boken Engine. You can find it on the App Store: https://apps.apple.com/app/id1580924283#?platform=ipad Our goals at the beginning of the project were: Try to build a complete demo using all Boken Engine features. Make it fun. Regarding...
         </description>
         <pubDate>Fri, 13 Aug 2021 00:00:00 +0200</pubDate>
         <link>http://localhost:4000/2021-08-13-Iaaki-Saga-on-the-Apple-Store/</link>
