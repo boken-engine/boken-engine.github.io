@@ -8,7 +8,7 @@ share-img: /assets/img/iakkai-title-screen.png
 tags: [iakkai,demo,macOS]
 ---
 
-Althougth you can easily build and run the [Iakka demo project](https://github.com/boken-engine/iakkai-saga-the-curse-of-blood) on your macOS, we wanted to have a simpler way to execute it. We wanted to show what you can build using Boken Engine even before knowing how to do it.
+Although you can easily build and run the [Iakkai demo project](https://github.com/boken-engine/iakkai-saga-the-curse-of-blood) on your macOS, we wanted to have a simpler way to execute it. We wanted to show what you can build using Boken Engine even before knowing how to do it.
 
 That's why we decided to build a macOS version. If you have an iOS device the simplest way is to install the Iakkai iOS App from the Apple App Store: [Iakkai](https://apps.apple.com/app/id1580924283#?platform=ipad).
 
@@ -16,13 +16,13 @@ If you do not have an iOS device you can [download Iakkai](https://github.com/bo
 
 [![Iakkai Saga - Download version 1.0](/assets/img/download-button.png)](https://github.com/boken-engine/iakkai-saga-the-curse-of-blood/releases/download/1.0/iakkai-1.0.zip)
 
-We tried to publish it on the Mac App Store bus it was rejected by Apple reviewers. The reason was:
+We tried to publish it on the Mac App Store but it was rejected by Apple reviewers. The reason was:
 
 **"Guideline 4.2 - Design - Minimum Functionality"**
 
-They argued the app was primarly a book.
+They argued that the app was primarly a book.
 
-In order to build the application for macOS we face mainly 2 issues:
+In order to build the application for macOS we faced mainly 2 issues:
 
 1. Generate a build for macOS.
 2. Generate a distributable app outside the Mac App Store.
@@ -33,11 +33,11 @@ This task was surprisingly easy. We started reading Apple documentation about [r
 
 ![Deployment Info configuration for macOS on xcode](/assets/img/deployment-info-macos.png)
 
-Apple has develop a project call [Mac Catalyst](https://developer.apple.com/design/human-interface-guidelines/mac-catalyst/overview/introduction/). As they promise "you can make a Mac version of your iPad app". Basically they use the same libraries under the hood whether you build for iOS or macOS.
+Apple has develop a project called the [Mac Catalyst](https://developer.apple.com/design/human-interface-guidelines/mac-catalyst/overview/introduction/). As they promise "you can make a Mac version of your iPad app". Basically they use the same libraries under the hood whether you build for iOS or macOS.
 
 ![Mac Catalyst stack](/assets/img/mac-catalyst-stack.png)
 
-Once we changed the settings, we tried to build for macOS. We had a build error in one of the methods we used to detect the devide orientation. We temporarily solved with build conditions, making ladscape the only orientation available for macOS.
+Once we changed the settings, we tried to build for macOS. We had a build error in one of the methods we used to detect the device's orientation. We solved it with build conditions, making ladscape the only orientation available for macOS.
 
 ```javascript
 func getDeviceOrientation() -> DeviceOrientation {
@@ -53,19 +53,19 @@ func getDeviceOrientation() -> DeviceOrientation {
 }
 ```
 
-After fixig that build error we could run the app for macOS. So we tried to publish it on the Mac App Store. We followed the stardard process to publish directly using xcode but we got this error in the final step while we were uploading the app to the store:
+After fixing that build error we could run the app for macOS. So we tried to publish it on the Mac App Store. We followed the stardard process to publish directly using xcode but we got this error in the final step while we were uploading the app to the store:
 
 ![Universal binary needed upload error](/assets/img/error-universal-binary-needed.png)
 
-The problem was we were builfing Boken Engine only for arm64 architecture.
+The problem here, was that we were building Boken Engine only for arm64 architecture.
 
 ![Universal binary needed upload error](/assets/img/error-boken-engine-only-for-arm64.png)
 
-We had to change xcode setting in order to build Boken Engine for both architectures. After doing that we were able to submit the macOS app for review. Unfortunately the application was rejected as we mentioned before.
+We had to change xcode settings in order to build Boken Engine for both architectures. After doing that we were able to submit the macOS app for review. Unfortunately the application was rejected as we mentioned before.
 
 ## Generate a distributable app outside the Mac App Store
 
-Since we could not publish the app using the Mac App Store we decide to distribute it directly. After researching for different ways to do it we decided to go for the simplest one. You can also use xcode and `archive` a build for macOS. You have to the the same process you normally do when you upload the application build to the Store. But you have to choose the second option:
+Since we could not publish the app using the Mac App Store we decided to distribute it directly. After researching for different ways to do it, we decided to go for the simplest one. You can also use xcode and `archive` a build for macOS. You have to the do the same process you normally do when you upload the application build to the Store. But you have to choose the second option:
 
 ![Distribute app with Developer ID](/assets/img/distribute-app-with-developer-id.png)
 
@@ -73,23 +73,21 @@ xcode will magically handle all the process related to signing with your certifi
 
 > Notarization gives users more confidence that the Developer ID-signed software you distribute has been checked by Apple for malicious components.
 
-After some minutes (less than 10) you will receive and email and you can continue the process. You can eport the application distributable and run it on any macOS. The distributable is an [macOS bundle](https://en.wikipedia.org/wiki/Bundle_(macOS)) (folder).
+After some minutes (less than 10) you will receive an email and you can continue the process. Once done you can then export the application distributable and run it on any macOS. The distributable is an [macOS bundle](https://en.wikipedia.org/wiki/Bundle_(macOS)) (folder).
 
-We wanted to generate a single file but keeping a simple installation package. Finally we decided to generate a zip file using the command `ditto`:
+We wanted to generate a single file; however, keeping a simple installation package. Finally we decided to generate a zip file using the command `ditto`:
 
 ```
 % ditto -c -k --keepParent DDD ZZZ
 ```
 
-Where DDD is the path to the directory containing the app you have exported in the previous step and and ZZZ is the path where ditto creates the zip archive. That's the app you can download avobe at the beginning of this post.
+Where DDD is the path to the directory containing the app you have exported in the previous step and and ZZZ is the path where ditto creates the zip archive. That's the app you can download above at the beginning of this post.
 
-I hope this could help you to build and distributed your Boken Engine based macOS apps.
-
-Generate a distributable app outside the Mac App Store
+I hope this post will help you to build and distribute your Boken Engine based macOS apps and generate a distributable app outside the Mac App Store.
 
 ## Conclusion
 
-As you can seeyou can build your apps using Boken Engine ans easily publish them for macOS. If you are planning to build for macOS we recommend you to integrate that version in your pipeline, so you do not get any surprise when you try to build the macOS version.
+As you can see you can build your apps using Boken Engine and easily publish them for macOS. If you are planning to build for macOS we recommend you to integrate that version in your pipeline, so you do not get any surprises when you try to build the macOS version.
 
 ## Links
 
