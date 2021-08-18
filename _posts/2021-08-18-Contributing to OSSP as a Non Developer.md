@@ -46,7 +46,7 @@ All was documented and used to take decisions for the development of the project
 
 We tried to make the process completely transparent and useful for others, who ever considered embarking on the Open-Source Software adventure. Here you have an overview of the documentation that was generated during the process.
   
-If you are curious, you can find this information here: https://github.com/boken-engine/boken-engine/tree/master/doc
+If you are curious, you can find this information [here](https://github.com/boken-engine/boken-engine/tree/master/doc).
 
 ## Discussing & Deciding
 Each time some research was done we would discuss it internally and decide on it.
