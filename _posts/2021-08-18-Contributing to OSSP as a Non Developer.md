@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Contributing to an Open-Source Project
-subtitle: As a Non-Developer
+subtitle: As a Non-Developer by Constantin Bosse
 cover-img: /assets/img/post-OSS-sprite-faces.jpg
 thumbnail-img: /assets/img/post-OSS-sprite-faces.jpg
 share-img: /assets/img/post-OSS-sprite-faces.jpg
