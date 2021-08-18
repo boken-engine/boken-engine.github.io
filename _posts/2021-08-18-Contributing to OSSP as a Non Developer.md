@@ -82,7 +82,7 @@ If you want to read more  articles in the future here is our website and blog: h
 ## Where the Path has taken Me
 As of today, I continue contributing to the Boken project, helping in non-development topics, such as art creation, reviewing of written texts, etc. and it feels great to be part of a team and creating something, especially since the Demo is now published in its first version. 
 
-Our Demo is called *“Iakkai – Curse of Blood”*. We got it approved last week and you can find it here: https://apps.apple.com/app/id1580924283#?platform=ipad
-Besides this this experience has opened my eyes to new interesting learning topics and skills that I can develop but also opened a new opportunity that I have decided to explore.
+Our Demo is called *“Iakkai – Curse of Blood”*. We got it approved last week and you can find it [here](https://apps.apple.com/app/id1580924283#?platform=ipad).
+Besides this experience has opened my eyes to new interesting learning topics and skills that I can develop but also opened a new opportunity that I have decided to explore.
 
-I can only encourage anyone to check out OSS projects and contribute to these even if they are not developers, since you can always add value with your knowledge and time. Here is a post in case you want to know a little more about it: (https://opensource.com/life/16/1/8-ways-contribute-open-source-without-writing-code).
+I can only encourage anyone to check out OSS projects and contribute to these even if they are not developers, since you can always add value with your knowledge and time. Here is a post in case you want to know a little more about it: https://opensource.com/life/16/1/8-ways-contribute-open-source-without-writing-code.
