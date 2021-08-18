@@ -74,10 +74,10 @@ Here is a small sample of the Art that I created for the Iakkai Saga App:
 
 The hardware that I used was a WACOM Cintiq 13” tablet. It was a great experience which I really enjoyed, and I can only recommend both application and the tablet. In my case in the end, I preferred the Affinity application for its lower price tag, though I must say that it is not as complete as Corel Painter 2022 which offer many other possible workflows.
 Some of my colleagues also learned and documented it, for example here is a link to two articles by my colleagues: 
-* https://www.boken-engine.dev/2021-06-28-a-challenging-journey/
-* https://www.boken-engine.dev/2021-08-17-Iaaki-Saga-for-macOS/
+* [A Challenging Journey](https://www.boken-engine.dev/2021-06-28-a-challenging-journey/)
+* [Iakkai Saga for macOS](https://www.boken-engine.dev/2021-08-17-Iaaki-Saga-for-macOS/)
 
-If you want to read more  articles in the future here is our website and blog: https://www.boken-engine.dev/
+If you want to read more  articles in the future here is our website and blog: [https://www.boken-engine.dev/](https://www.boken-engine.dev/)
 
 ## Where the Path has taken Me
 As of today, I continue contributing to the Boken project, helping in non-development topics, such as art creation, reviewing of written texts, etc. and it feels great to be part of a team and creating something, especially since the Demo is now published in its first version. 
@@ -85,4 +85,4 @@ As of today, I continue contributing to the Boken project, helping in non-develo
 Our Demo is called *“Iakkai – Curse of Blood”*. We got it approved last week and you can find it [here](https://apps.apple.com/app/id1580924283#?platform=ipad).
 Besides this experience has opened my eyes to new interesting learning topics and skills that I can develop but also opened a new opportunity that I have decided to explore.
 
-I can only encourage anyone to check out OSS projects and contribute to these even if they are not developers, since you can always add value with your knowledge and time. Here is a post in case you want to know a little more about it: https://opensource.com/life/16/1/8-ways-contribute-open-source-without-writing-code.
+I can only encourage anyone to check out OSS projects and contribute to these even if they are not developers, since you can always add value with your knowledge and time. Here is a post in case you want to know a little more about it: [https://opensource.com/life/16/1/8-ways-contribute-open-source-without-writing-code](https://opensource.com/life/16/1/8-ways-contribute-open-source-without-writing-code).
