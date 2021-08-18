@@ -67,7 +67,7 @@ As the project progressed, we ran into situations where we had no experience at 
 
 We selected an artist but at the last moment with already the deadline coming close he could not work with us. As a team we decided to do everything in-house since we had almost all the necessary skills. One of my colleagues took care of the background images and I took charge of the sprites. I had never published a piece of art of mine, nor created art for such a large project following specific requirements, and less so digitally so that it was a steep learning curve for me.
 
-In my specific case I tested and learned to use 2 different digital drawing applications and created artwork with it. The applications that I used were [Affinity Designer] (https://affinity.serif.com/es/) and the other [Corel Painter 2022] (https://www.painterartist.com/en/product/painter/?sourceid=ptr2022-xx-ppc_brkws&x-vehicle=ppc_brkws&trial=big&gclid=Cj0KCQjwvO2IBhCzARIsALw3ASpWjLuJtJRBQShzjV1uHHgrA9xFzTPNNYCF6nzAeen0lCqHNKF_MHcaAtszEALw_wcB). 
+In my specific case I tested and learned to use 2 different digital drawing applications and created artwork with it. The applications that I used were [Affinity Designer](https://affinity.serif.com/es/) and the other [Corel Painter 2022](https://www.painterartist.com/en/product/painter/?sourceid=ptr2022-xx-ppc_brkws&x-vehicle=ppc_brkws&trial=big&gclid=Cj0KCQjwvO2IBhCzARIsALw3ASpWjLuJtJRBQShzjV1uHHgrA9xFzTPNNYCF6nzAeen0lCqHNKF_MHcaAtszEALw_wcB). 
 
 Here is a small sample of the Art that I created for the Iakkai Saga App:
 ![Sample Sprites](/assets/img/Sprites-03.png)
